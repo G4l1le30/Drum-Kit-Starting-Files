@@ -20,6 +20,7 @@ function makeSound(event){
                 case "s":
                     var tom3=new Audio("sounds/tom-3.mp3");
                     tom3.play();
+                    document.getElementById("title").textContent = "adji puki";
                     break;
                 case "d":
                     var tom4=new Audio("sounds/tom-4.mp3");
